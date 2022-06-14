@@ -13,7 +13,7 @@ void sort012(int *arr, int n)
         else if(arr[m]==1){
             m++;
         }
-        else {
+        else if(arr[m]==2) {
             swap(arr[m],arr[e]);
             
             e--;
